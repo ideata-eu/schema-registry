@@ -12,6 +12,7 @@
 
     <groupId>io.confluent</groupId>
     <artifactId>kafka-avro-serializer</artifactId>
+    <version>3.1.2-hotfixed</version>
     <packaging>jar</packaging>
     <name>kafka-avro-serializer</name>
 
@@ -30,7 +31,7 @@
         <dependency>
             <groupId>io.confluent</groupId>
             <artifactId>kafka-schema-registry-client</artifactId>
-            <version>${project.version}</version>
+            <version>3.1.2</version>
         </dependency>
         <dependency>
             <groupId>io.confluent</groupId>
